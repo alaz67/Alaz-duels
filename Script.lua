@@ -1,7 +1,7 @@
 -- ╔══════════════════════════════════════════════════════════════╗
 -- ║              ⚔  ALAZ DUELS  ⚔                               ║
 -- ║              PREMIUM EDITION  |  White + Black Fire          ║
--- ║              discord.gg/VXgngYEC                             ║
+-- ║              discord.gg/U4XXCxKUm                             ║
 -- ╚══════════════════════════════════════════════════════════════╝
 -- 
 -- LOADSTRING SOURCE
@@ -718,7 +718,7 @@ end
 -- ──────────────────────────────────────────────────────────────
 local ProgressBarFill, ProgressLabel, ProgressPercentLabel, RadiusInput
 local stealStartTime = nil; local progressConnection = nil; local StealData = {}
-local DISCORD_TEXT = "discord.gg/VXgngYEC"
+local DISCORD_TEXT = "discord.gg/U4XXCxKUm"
 local function getDiscordProgress(pct) return string.sub(DISCORD_TEXT, 1, math.floor((math.min(pct*1.5,100)/100)*#DISCORD_TEXT)) end
 
 local function isMyPlot(pn)
@@ -824,7 +824,7 @@ end
 -- GUI  (White theme + Black fire)
 -- ──────────────────────────────────────────────────────────────
 local isMobile = UserInputService.TouchEnabled and not UserInputService.KeyboardEnabled
-local gs = 0.95  -- guiScale
+local gs = 0.40  -- guiScale
 
 local W = {
     bg       = Color3.fromRGB(255,255,255),
@@ -975,7 +975,7 @@ titleLbl.TextXAlignment=Enum.TextXAlignment.Center; titleLbl.ZIndex=14
 
 local subLbl=Instance.new("TextLabel",hdr)
 subLbl.Size=UDim2.new(1,0,0,19*gs); subLbl.Position=UDim2.new(0,0,0.67,0)
-subLbl.BackgroundTransparency=1; subLbl.Text="PREMIUM EDITION  •  discord.gg/VXgngYEC"
+subLbl.BackgroundTransparency=1; subLbl.Text="PREMIUM EDITION  •  discord.gg/U4XXCxKUm"
 subLbl.TextColor3=Color3.fromRGB(145,145,145); subLbl.Font=Enum.Font.GothamBold
 subLbl.TextSize=11*gs; subLbl.TextXAlignment=Enum.TextXAlignment.Center; subLbl.ZIndex=14
 
