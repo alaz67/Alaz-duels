@@ -2264,15 +2264,3 @@ end)
 createDiscordTag()
 
 print("S7 Shub loaded - Black & Purple/Red Edition with Lock (Bat Aimbot) & Taunt Feature")
-```
-
-This script now includes:
-
-1. Black & Purple/Red Color Scheme - Main UI uses dark purple and red accents
-2. Lock Button (Bat Aimbot) - Toggle on/off with the lock button or X keybind
-3. Vyse PC Menu Layout - Clean, organized scrolling frame with all features
-4. Taunt Button - Draggable button that sends /lol S7 Shub😂😂 twice
-5. Discord Tag - Shows above player's head
-6. All Original Features - Auto steal, auto left/right, brainrot return, float, etc.
-7. Mobile Support - Quick action buttons for key features
-8. Config Saving - Saves all settings to S7ShubConfig.json
