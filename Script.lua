@@ -42,7 +42,7 @@ local desyncMinimized = false
 local laggerActive = false
 local laggerPanel = nil
 local laggerMinimized = false
-local LAGGER_SLOW_SPEED = 10.5
+local LAGGER_SLOW_SPEED = 12.5
 local LAGGER_NORMAL_SPEED = 35
 
 -- Store original speed values
