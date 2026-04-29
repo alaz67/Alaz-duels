@@ -2256,7 +2256,3 @@ detectBaseSideAsync(function(side)
 		State.brainrotReturnSide = (side == "right") and "left" or "right"
 	end
 end)
-
-createDiscordTag()
-
-print("S7 Shub loaded - Black & Purple/Red Edition with Lock (Bat Aimbot) & Taunt Feature")
