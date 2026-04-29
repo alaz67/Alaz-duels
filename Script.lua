@@ -1,7 +1,3 @@
--- S7 Shub - Black & Purple/Red Edition with Lock Toggle (Bat Aimbot) & Taunt Feature
--- With Discord Tag Above Head & Taunt Button (Draggable, sends /lol S7 Shub😂😂 twice)
--- Lock/Bat Aimbot: NO auto swing, purple line, smooth movement (60 speed)
-
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local UIS = game:GetService("UserInputService")
