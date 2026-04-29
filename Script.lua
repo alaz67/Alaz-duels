@@ -1,3 +1,7 @@
+-- S7 Shub - Black & Purple/Red Edition with Lock Toggle (Bat Aimbot) & Taunt Feature
+-- With Discord Tag Above Head & Taunt Button (Draggable, sends /lol S7 Shub😂😂 twice)
+-- Lock/Bat Aimbot: NO auto swing, purple line, smooth movement (60 speed)
+
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local UIS = game:GetService("UserInputService")
@@ -2256,3 +2260,7 @@ detectBaseSideAsync(function(side)
 		State.brainrotReturnSide = (side == "right") and "left" or "right"
 	end
 end)
+
+createDiscordTag()
+
+print("S7 Shub loaded - Black & Purple/Red Edition with Lock (Bat Aimbot) & Taunt Feature")
